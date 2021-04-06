@@ -7,6 +7,16 @@ export default function Home(){
             <Title>Home Page</Title>
             <hr />
             <p>Aprendiendo NextJS con Webtutoriales</p>
+            <style>
+                {`
+                    p {
+                        color: darkgrey;
+                    }
+                    p:hover {
+                        color: darkred;
+                    }
+                `}    
+            </style>    
         </Layout>
     )
 }
