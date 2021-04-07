@@ -13,7 +13,7 @@ export default function Home(){
                         color: darkgrey;
                     }
                     p:hover {
-                        color: darkred;
+                        color: red;
                     }
                 `}    
             </style>    
