@@ -1,8 +1,13 @@
 import Navbar from './navbar';
+import Head from 'next/head';
 
 export default function Layout({children}){
     return (
         <div>
+            <Head>
+                <title>Nextjs con Webtutoriales</title>
+                <meta name="description" content="En este curso aprendimos sobre Nextjs"/>
+            </Head>
             <Navbar />
             <main>
                 {children}

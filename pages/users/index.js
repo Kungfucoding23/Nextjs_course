@@ -4,7 +4,7 @@ import Title from '../../components/title';
 
 export default function Users({users}) {
     return (
-        <Layout>            
+        <Layout>           
             <Title>Users Page</Title>
             <div className='grid'>
                 {users.map(user => {
